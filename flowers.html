@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowerie - Vente de Fleurs en Plastique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff7f7f;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #fff;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .product {
+            background-color: white;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+        .product p {
+            color: #777;
+        }
+        .product .price {
+            color: #ff7f7f;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #ff7f7f;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Flowerie - Fleurs en Plastique</h1>
+</header>
+
+<nav>
+    <a href="#">Accueil</a>
+    <a href="#">Produits</a>
+    <a href="#">À propos</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <!-- Produit 1 -->
+    <div class="product">
+        <img src="image1.jpg" alt="Fleur en plastique 1">
+        <h3>Fleur Rose</h3>
+        <p>Une magnifique fleur rose en plastique de qualité supérieure.</p>
+        <p class="price">200 MAD</p>
+        <button>Ajouter au panier</button>
+    </div>
+
+    <!-- Produit 2 -->
+    <div class="product">
+        <img src="image2.jpg" alt="Fleur en plastique 2">
+        <h3>Fleur Bleue</h3>
+        <p>Une fleur bleue qui apportera de la couleur à votre intérieur.</p>
+        <p class="price">150 MAD</p>
+        <button>Ajouter au panier</button>
+    </div>
+
+    <!-- Produit 3 -->
+    <div class="product">
+        <img src="image3.jpg" alt="Fleur en plastique 3">
+        <h3>Fleur Blanche</h3>
+        <p>Une élégante fleur blanche en plastique pour décorer votre maison.</p>
+        <p class="price">180 MAD</p>
+        <button>Ajouter au panier</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Flowerie. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
